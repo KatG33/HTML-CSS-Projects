@@ -1,26 +1,57 @@
 body{
-    font-family: Calibri;
-    font-size: 15px;
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    background-color: #000088;
-    color: #f5f6f7;
-  }
-  
-  form {
-    padding: 0 auto;
-    text-align: middle;
-    width: 80vw;
-    margin: 0 auto;
-  }
-  
-  h1, p{
-    padding: 10px 50px;
-    text-align: center; 
-  }
-  
-  label {
-    display: block;
-    margin: 0.5rem 0;
-  }  
+  font-family: Calibri;
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  margin: 15px auto;
+  background-color: #001858;
+  color: #f5f6f7;
+}
+
+form {
+  padding: 0 auto;
+  text-align: middle;
+  width: 80vw;
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0 auto;
+}
+
+h1, p {
+  padding: 1px 150px;
+  text-align: center; 
+  margin: 1em auto;
+}
+
+fieldset {
+  padding: 1rem 2rem;
+  margin: 1rem 1rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+textarea {
+  margin: 10 20 20 0;
+  width: 100%;
+  min-height: 5em;
+}
+
+input, textarea {
+  background-color: #ffffff;
+  border: 2px solid #222222;
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 50%;
+  margin: 10 auto;
+  height: 2.5em;
+  font-size: 1rem;
+  background-color: #333333;
+  border-color: white;
+
+}

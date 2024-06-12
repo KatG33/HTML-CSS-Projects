@@ -2,23 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Survey Form</title>
+    <title>SURVEY FORM</title>
     <link rel="stylesheet" href="styles.css"/>
   </head>
- 
   <body>
     <h1 id="title">Survey form</h1>
-    <p id="description">This project is meant to be the demonstation of a Survey form that can be build using HTML and CSS languages within one hour timeframe.</p> 
-    
+    <p id="description">This project is a demonstation of a basic Survey Form that can be build using HTML and CSS.</p> 
     <form id="survey-form" >
       <fieldset><legend> Tell us about yourself </legend>
-        <label for="name" id="name-label" >  Please, enter your full name: <input id="name" type="text" placeholder="Enter your full legal Name" required/> </label>
+        <label for="name" id="name-label" >  Please, enter your full name: <input id="name" type="text" placeholder="Enter your full legal name" required/> </label>
         <label>Have you changed any part of your full name within the last 2 years?</label>
         <label><input type="radio" name="name-change" value="11" checked> Yes </input> </label>
         <label><input type="radio" name="name-change" value="22"> No </input> </label>
         <label for="email" id="email-label"> Please, enter your email: <input id="email" type="email" placeholder="Email" required/> </label>
-        <label for="number" id="number-label"> Please, enter your australian phone number: <input id="number" type="number" placeholder="Entern Australian Phone Number" pattern=[0-9] min=10 max=12 required/> </label>
-        
+        <label for="number" id="number-label"> Please, enter your Australian phone number: <input id="number" type="number" placeholder="Phone Number" pattern=[0-9] min=10 max=12 required/> </label>
         <label> What is your gender identity?  
         <select id="dropdown"> 
           <option value="" id="dropdown"> Select option </option>
@@ -34,7 +31,7 @@
         <legend> Please, choose your area of interest </legend>
         <label><input type="checkbox" name="interest" value="11"> Engineering and/or Mathematical Sciences </input> </label>
         <label><input type="checkbox" name="interest" value="12"> Social Sciences </input> </label>
-        <label><input type="checkbox" name="interest" value="13"> Performance </input> </label>
+        <label><input type="checkbox" name="interest" value="13"> Publicistic performance </input> </label>
         <label><input type="checkbox" name="interest" value="14"> IT and Programming </input> </label>
         <label for="comments" type="block">Provide your comments:    
           <textarea id="comments" rows="2" cols="30" ></textarea>
@@ -45,5 +42,4 @@
   </body>
  
   <footer>
-   
   </footer>
