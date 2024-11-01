@@ -2,39 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>SURVEY FORM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
     <link rel="stylesheet" href="styles.css"/>
   </head>
+ 
   <body>
     <h1 id="title">Survey form</h1>
-    <p id="description">This project is a demonstation of a basic Survey Form that can be build using HTML and CSS.</p> 
+    <p id="description">
+      This project is meant to demonstrate a survey form that can be built using HTML and CSS languages.
+    </p> 
+    
     <form id="survey-form" >
-      <fieldset><legend> Tell us about yourself </legend>
-        <label for="name" id="name-label" >  Please, enter your full name: <input id="name" type="text" placeholder="Enter your full legal name" required/> </label>
-        <label>Have you changed any part of your full name within the last 2 years?</label>
-        <label><input type="radio" name="name-change" value="11" checked> Yes </input> </label>
-        <label><input type="radio" name="name-change" value="22"> No </input> </label>
-        <label for="email" id="email-label"> Please, enter your email: <input id="email" type="email" placeholder="Email" required/> </label>
-        <label for="number" id="number-label"> Please, enter your Australian phone number: <input id="number" type="number" placeholder="Phone Number" pattern=[0-9] min=10 max=12 required/> </label>
-        <label> What is your gender identity?  
-        <select id="dropdown"> 
-          <option value="" id="dropdown"> Select option </option>
-          <option value="1" id="dropdown"> Female </option>
-          <option value="2" id="dropdown"> Male </option>
-          <option value="3" id="dropdown"> Non-binary </option>
-          <option value="4" id="dropdown"> Other </option>
-        </select>
+      <fieldset>
+        <legend> Tell us about yourself </legend>
+        <label for="name" id="name-label" >  
+          Please, enter your Full Name: 
+          <input id="name" type="text" placeholder="Enter your full legal Name" required/> 
         </label>
+        
+        <label>Have you changed your name within the last 2 years?</label>
+
+        <div class="radio-group">
+        <label><input type="radio" name="name-change" value="yes" checked> Yes </input> </label>
+        <label><input type="radio" name="name-change" value="no"> No </input> </label>
+        </div>
+
+        <label for="email" id="email-label"> 
+          Please, enter your Email: 
+          <input id="email" type="email" placeholder="Email" required/> 
+        </label>
+
+        <label for="number" id="number-label"> 
+          Please, enter your Australian Phone Number: 
+          <input id="number" type="number" placeholder="Enter your Phone Number" pattern=[0-9] min=10 max=12 required/>  
+        </label>
+        
+        <label for="dropdown"> What is your Gender Identity? </label> 
+        <div class="gender-container"> 
+          <select id="dropdown"> 
+            <option value="" id="dropdown"> Select option </option>
+            <option value="1" id="dropdown"> Female </option>
+            <option value="2" id="dropdown"> Male </option>
+            <option value="3" id="dropdown"> Non-binary </option>
+            <option value="4" id="dropdown"> Other </option>
+          </select>
+        </div>
       </fieldset>
 
       <fieldset>
         <legend> Please, choose your area of interest </legend>
-        <label><input type="checkbox" name="interest" value="11"> Engineering and/or Mathematical Sciences </input> </label>
-        <label><input type="checkbox" name="interest" value="12"> Social Sciences </input> </label>
-        <label><input type="checkbox" name="interest" value="13"> Publicistic performance </input> </label>
-        <label><input type="checkbox" name="interest" value="14"> IT and Programming </input> </label>
-        <label for="comments" type="block">Provide your comments:    
-          <textarea id="comments" rows="2" cols="30" ></textarea>
+        <label><input type="checkbox" name="interest" value="engineering"> Engineering and/or Mathematical Sciences </input> </label>
+        <label><input type="checkbox" name="interest" value="social sciences"> Social Sciences </input> </label>
+        <label><input type="checkbox" name="interest" value="performance"> Performance </input> </label>
+        <label><input type="checkbox" name="interest" value="IT and programming"> IT and Programming </input> </label>
+        <label for="comments" type="block">Provide your comments:   <textarea id="comments" rows="5" cols="30" placeholder="Your comments..."></textarea>
         </label>
          <input type="submit" value="Submit" id="submit"/>
       </fieldset>
@@ -42,4 +64,5 @@
   </body>
  
   <footer>
+   
   </footer>
