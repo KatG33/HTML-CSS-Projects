@@ -71,3 +71,11 @@ fieldset {
 .gender-container {
     padding: 0 10
 }
+
+/* I have 2 grids/columns: one for labels and one for inputs*/
+.info {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 10px 20px;
+    align-items: center;
+}
