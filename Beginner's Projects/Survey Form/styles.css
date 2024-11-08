@@ -69,10 +69,6 @@ fieldset {
   padding: 10px
 }
 
-.gender-container {
-    padding: 0px 10px
-}
-
 /* I have 2 grids/columns: one for labels and one for inputs*/
 .info {
     display: grid;
