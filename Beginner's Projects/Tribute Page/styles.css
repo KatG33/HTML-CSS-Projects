@@ -83,8 +83,8 @@ nav > ul {
   justify-content: space-evenly;
   flex-wrap: wrap;
   align-items: center;
-  padding-inline-start: 0;
-  margin-block: 0;
+  padding-inline-start: 0px;
+  margin-block: 0px;
   height: 100%;
 }
 
@@ -133,6 +133,6 @@ a:active {
 }
 
 section a{
-  font-size:21;
-  margin: 10 10;
+  font-size:21px;
+  margin: 10px 10px;
 }
