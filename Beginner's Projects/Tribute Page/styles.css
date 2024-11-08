@@ -16,11 +16,13 @@ header {
   height: 185px;
   background-color: #522319;
   display: flex;
-  align-items: center;        /* Centers items vertically */
-  justify-content: center;     /* Centers items horizontally */
+  /* 'align-items' Centers items vertically */
+  align-items: center;  
+  /* 'justify-content' Centers items horizontally */      
+  justify-content: center;     
   position: fixed;
-  top: 0;
-  left:0;
+  top: 0px;
+  left: 0px;
 }
 
 #pnutH {
@@ -28,40 +30,34 @@ header {
   height: auto;    
   }
 
-.corner-image {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 500px; 
-      height: auto;
-      background-color: #D3D3D3; 
-      z-index: -1;
+  main.content {
+  padding-top: 150px; 
 }
 
 .about, .donation, .case{
-  padding: 20px;
+  padding: 10px;
 }
 
 h1 {
   color: #D3D3D3;
   font-size: min(5vw, 1.5em);
   text-align: center;
-  margin: 30 30;
+  margin: 30px 30px;
   font-family: Verdana;
 }
 
 h2 {
-  padding-top: 180px;
+  padding-top: 50px;
   font-size: 21px;
-  padding-bottom: 20;
-  margin: 0, 40;
+  padding-bottom: 0px;
+  margin: 0px, 40px;
   font-family: Arial, sans-serif;
-  padding-left: 10;
+  padding-left: 10px;
 }
 
 p {
   font-size: 20px;
-  padding: 20 10;
+  padding: 0px 10px;
   font-family: Arial, sans-serif;
 }
 
@@ -90,8 +86,8 @@ nav > ul {
 
 nav > ul > li {
   color: #dfdfe2;
-  margin: 0 0.2rem;
-  padding: 0.2rem;
+  margin: 0 0.1rem;
+  padding: 0.1rem;
   display: block;
 }
 
@@ -104,4 +100,14 @@ nav > ul > li:hover {
 li > a {
   color: inherit;
   text-decoration: none;
+}
+
+.corner-image {
+      position: fixed;
+      bottom: 0px;
+      left: 0px;
+      width: 500px; 
+      height: auto;
+      background-color: #D3D3D3; 
+      z-index: -1;
 }
