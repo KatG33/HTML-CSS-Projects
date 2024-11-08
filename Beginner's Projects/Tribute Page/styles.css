@@ -115,3 +115,24 @@ li > a {
       background-color: #D3D3D3; 
       z-index: -1;
 }
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #8e2319;
+}
+
+a:active {
+  color: black;
+}
+
+section a{
+  font-size:21;
+  margin: 10 10;
+}
