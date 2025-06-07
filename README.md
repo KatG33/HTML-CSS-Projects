@@ -14,5 +14,7 @@ How to Run These Projects:
 Each project in this repository includes one .html file, the webpage, and one .css file, the styling.
 1. Download a project folder with both files
 2. Double click the .html file, and it will automatically open the webpage with .css styling
+   
 OR
+
 2. Load the .html and .css files to https://onecompiler.com/ and press 'RUN' in the top right corner
