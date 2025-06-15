@@ -12,7 +12,7 @@ body {
   font-family: sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
-  line-height: 1.5;
+  line-height: 1.5px;
 }
 
 header {
